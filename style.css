@@ -1,0 +1,28 @@
+img {
+    border:solid;
+}
+.header{
+    background-color:#CDB599FF
+}
+.game{
+    display:flex;
+    flex-wrap:wrap;
+  
+
+}
+.item:hover img{
+opacity: 0.3;
+}
+
+a:link{
+  color:whitesmoke  
+}
+a:visited{
+    color:blue
+}
+#borderImg{
+    border:20px solid;
+    padding:50px;
+    border-image: url(border.png) 30 round;
+   
+}
